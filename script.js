@@ -13,9 +13,9 @@ roll.addEventListener('click',()=>{
     
     // image.classList.add("rollDice");
     newScore= Math.ceil(Math.random()*6);
-        document.getElementById("image").innerHTML = '<img src = "../img/dice'+ newScore+ '.png" >' ;
+        document.getElementById("image").innerHTML = '<img src = "img/dice'+ newScore+ '.png" >' ;
         document.getElementById("newScore").innerHTML = newScore;
-        
+
     // console.log(newScore)
 
 
